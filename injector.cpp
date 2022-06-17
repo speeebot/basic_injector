@@ -28,7 +28,7 @@ int main()
 	DWORD proc_id = NULL;
 	char dll_path[MAX_PATH];
 	const char* dll_name = "csgo_basic.dll";
-	const char* window_title = "Counter-Strike: Global Offensive";
+	const char* window_title = "Counter-Strike: Global Offensive - Direct3D 9";
 
 	if (!file_exists(dll_name))
 	{
